@@ -37,3 +37,16 @@ section::after{
     transform: translate(150px, 100px);
     background: linear-gradient(90deg, #9c27b0,#fff);
 }
+
+.container{
+    height: 275px;
+    width: 275px;
+
+}
+
+.container .card{
+    height: 100%;
+    width: 100%;
+    background: rgba(255 , 255 , 255 , 0.1);
+    
+}
