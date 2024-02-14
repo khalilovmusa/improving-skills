@@ -141,7 +141,7 @@ body{
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
-    
+
 }
 
 .buttons .subscribe-button-div button{
@@ -173,5 +173,21 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+
+}
+
+.likes-comment-share .likes{
+    margin-right: 10px;
+    border-right: 2px solid gray;
+    padding-right: 10px;
+    margin-left: 5px;
+    
+}
+
+.likes-comment-share .comments{
+    margin-right: 10px;
+    border-right: 2px solid gray;
+    padding-right: 10px;
+    margin-left: 5px;
 
 }
