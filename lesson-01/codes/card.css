@@ -1,0 +1,177 @@
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.center-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background: #fff;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0 , 0 , 0, 0.1);
+
+}
+
+/* .center-div{
+    position: absolute;
+    top: 50.8%;
+    left: 50.5%;
+    transform: translate(-50%,-50%);
+    box-shadow:10px 10px 10px 10px rgba(0,0,0,0.6);
+
+} */
+
+.image-div{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding: 3px;
+    margin-bottom: 10px;
+
+}
+
+.image-div .profile-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #4070f4;
+    
+}
+
+.center-div .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+
+}
+
+.text-data .name{
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.text-data .job{
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.social-pages-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.social-pages-div div{
+    margin-right: 10px;
+    border: none;
+    border-radius: 50%;
+
+}
+
+.social-pages-div div a svg{
+    height: 25px;
+    width: 25px;
+
+}
+
+.social-pages-div div svg:hover{
+    cursor: pointer;
+
+}
+
+.social-pages-div .facebook{
+    color: #4267B2;
+    
+}
+
+.social-pages-div .twitter{
+
+}
+
+.instagram svg{
+    /* background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit -linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); */
+    color: #cc2366;
+
+}
+
+.youtube svg{
+    color: #FF0000;
+
+}
+
+.youtube a svg{
+    height: 30px;
+    width: 30px;
+
+}
+
+.twitter svg{
+    color: #1e1e1e;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    
+}
+
+.buttons .subscribe-button-div button{
+    background-color: #4070f4;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+
+}
+
+.buttons .message-button-div button{
+    background-color: #4070f4;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+
+}
+
+.likes-comment-share,
+.likes-comment-share div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
